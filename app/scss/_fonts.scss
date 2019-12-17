@@ -1,0 +1,88 @@
+@font-face {
+	font-family: 'Roboto-Regular';
+    src: 
+        url('../fonts/Roboto-Regular.woff2') format('woff2'),
+        url('../fonts/Roboto-Regular.woff2') format('woff');
+        font-weight: 400;
+        font-display: swap;
+}
+
+@font-face {
+	font-family: 'Roboto-Medium';
+    src: 
+        url('../fonts/Roboto-Medium.woff2') format('woff2'),
+        url('../fonts/Roboto-Medium.woff2') format('woff');
+        font-weight: 500;
+        font-display: swap;
+}
+
+@font-face {
+	font-family: 'Roboto-Bold';
+    src: 
+        url('../fonts/Roboto-Bold.woff2') format('woff2'),
+        url('../fonts/Roboto-Bold.woff2') format('woff');
+        font-weight: 700;
+        font-display: swap;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src:  url('fonts/icomoon.eot?y10bx');
+    src:  url('fonts/icomoon.eot?y10bx#iefix') format('embedded-opentype'),
+      url('fonts/icomoon.ttf?y10bx') format('truetype'),
+      url('fonts/icomoon.woff?y10bx') format('woff'),
+      url('fonts/icomoon.svg?y10bx#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  @font-face {
+    font-family: 'icomoon';
+    src:  url('fonts/icomoon.eot?y10bx');
+    src:  url('fonts/icomoon.eot?y10bx#iefix') format('embedded-opentype'),
+      url('fonts/icomoon.ttf?y10bx') format('truetype'),
+      url('fonts/icomoon.woff?y10bx') format('woff'),
+      url('fonts/icomoon.svg?y10bx#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-map-marker:before {
+    content: "\f041";
+  }
+  .icon-shopping-cart:before {
+    content: "\f07a";
+  }
+  .icon-phone:before {
+    content: "\f095";
+  }
+  .icon-bolt:before {
+    content: "\f0e7";
+  }
+  .icon-flash:before {
+    content: "\f0e7";
+  }
+  .icon-angle-right:before {
+    content: "\f105";
+  }
+  .icon-location-arrow:before {
+    content: "\f124";
+  }
+  
